@@ -14,7 +14,8 @@ function LoggesOut(props) {
         </NavLink>
       </li>
       <li className="signin"> 
-        <NavLink className="text-blue btnv-3" to="/login">
+        <NavLink 
+        className="text-blue btnv-3" to="/login">
         Sign In
         </NavLink>         
       </li>
@@ -46,8 +47,8 @@ const Header = (props) => {
               </NavLink>
             </li>
             <li className="signin"> 
-              <button className="text-blue btnv-3" onClick={handleLogOut}>
-             Signout
+              <button className="sout" onClick={handleLogOut}>
+               Signout
               </button>         
             </li>
           </ul>
@@ -59,12 +60,7 @@ const Header = (props) => {
             <NavLink className="btn-nvt-gm" to="/resume-templates">
             Resume Templates
             </NavLink>
-            </li> 
-            <li className="holder-pricing">            
-              <NavLink className="btn-nvt-gm" to="/about-us">
-              About Us
-              </NavLink>
-            </li>        
+            </li>         
           </ul>
             
       </div>   

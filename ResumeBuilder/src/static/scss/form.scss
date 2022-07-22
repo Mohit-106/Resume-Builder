@@ -46,7 +46,7 @@
     top: 0;
     width: 2px;
     height: 100%;
-    background-color: #5ae4ce;
+    background-color: #29abe1;
     transform: scaleY(0);
     transition: transform .15s ease-in-out;
     transform-origin: center
@@ -76,7 +76,7 @@
 }
 
 .input-group .effect input:focus+span+.icon svg {
-    color: #5ae4ce
+    color: #29abe1
 }
 
 input {

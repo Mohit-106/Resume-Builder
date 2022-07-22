@@ -22,11 +22,8 @@ function GettingStarted(props) {
         return (  
             <div className="container med gettingStarted">
                 <div className="section">
-                    <h1 className=" center">
+                    <h1 style={{ marginBottom : "10rem" }} className="center">
                     Select a resume template to get started</h1>
-                    <p className=" center">
-                    You’ll be able to edit and change this template later!
-                    </p>
                     <div className="styleTemplate ">
                     {
                         skinCodes.map((value,index) => {

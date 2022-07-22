@@ -61,13 +61,12 @@
     }
 
     .signup {
-        border: 2px solid #5ae4ce;
         padding: 7px !important;
         border-radius: 0.6rem;
     }
 
     .signup:hover {
-        background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+        background: linear-gradient(45deg, #171b1f 0, #29abe1 85%, #1EAEDB 100%);
     }
 
     .signup a:hover {
@@ -77,10 +76,6 @@
     .signin a:hover {
         color: black !important;
     }
-
-
-  
-
 
     .header-link-container{
         width: 80%;

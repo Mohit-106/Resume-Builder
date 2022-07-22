@@ -1,9 +1,4 @@
 import React,{useEffect,useState} from "react";
-import update from 'immutability-helper';
-// import { connect } from "react-redux";
-// import {bindActionCreators} from 'redux';
-// import * as authActions from '../../actions/authActions';
-// import { isLoaded } from 'react-redux-firebase'
 import { useHistory } from "react-router";
 import { signin } from "../../redux/actions/authActions";
 import { connect } from "react-redux";
@@ -39,7 +34,7 @@ const handlePassword=(e)=>{
       <>
       {/* If we visit the login being signed in we will be unable to see the form */}
       <>
-      {props.authMine.loading?<h4 style={{marginTop:'10%',height:'52vh'}}>Patiently Wait...we are logging you in</h4>:
+      {props.authMine.loading?<h4 style={{marginTop:'20%',marginLeft:"45%",height:'52vh'}}>Signing in....</h4>:
           <div className="container med contact">
             <div className="section funnel-section">
                 <div className="form-card">

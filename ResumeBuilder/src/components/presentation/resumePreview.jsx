@@ -1,5 +1,5 @@
 import React from 'react';
-import {fieldCd} from './../../constants/typeCodes'
+import {fieldCd} from '../../constants/typeCodes'
 function ResumePreview(props){
     // console.log('Resume Preview');
     const rvContact=(key, valToAppend)=>{
@@ -41,7 +41,6 @@ function ResumePreview(props){
                      <p>{rvEducation(fieldCd.GraduationDate)}</p>
                      <p>{rvEducation(fieldCd.GraduationYear)}</p>
                 </div>
-          
             </div>
         )
     }
