@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from "../../static/images/resume.png";
 import { NavLink } from "react-router-dom";
+import Button from "@mui/material/Button";
+
 const Lp = () => {
     return (    
     
@@ -10,11 +12,10 @@ const Lp = () => {
            <p >Create a resume that perfectly describes your skills and job profile.</p>
             <br></br>
            <div >
-                <NavLink to="/getting-started"  className="btn hvr-float-shadow"><span>Get Started for Free</span>
-                </NavLink>
-                
+           <Button variant="outlined"> <NavLink to="/getting-started"  style={{textDecoration:"none"}}><span className="clrBlur">Get Started for Free</span>
+                </NavLink></Button>
                 </div>
-                <img src={logo}   className="lp-resume" alt="logo" />
+                <img  style={{marginTop:"6rem"}} src={logo}   className="lp-resume" alt="logo" />
          </div>        
          </div>
     

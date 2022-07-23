@@ -1,6 +1,15 @@
 .center {
     text-align: center;
 }
+.back{
+    font-size: 0.8rem;
+    color:#1976d2;
+}
+.edit{
+    font-size: 2rem;
+    color: white;
+
+}
 
 .center-item {
     align-items: center;
@@ -28,12 +37,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #7c7171;
-
-    &:hover {
-        color: #171b1f;
-        text-decoration: underline #ebebeb;
-    }
+}
+.clrBlur{
+    color: #29abe1;
 }
 
 
@@ -149,7 +155,6 @@ ul {
 }
 
 .nav a {
-    color: #303D46;
     white-space: nowrap;
     line-height: 1;
     text-decoration: none !important
@@ -236,10 +241,7 @@ ul {
 }
 
 
-.nav a:hover {
-    color: #29abe1;
-    text-decoration: underline red;
-}
+
 
 .lp-resume {
     height: 300px;
@@ -283,8 +285,6 @@ span {
 
 a {
     text-decoration: none;
-    color: #1DBFAF;
-    outline: #1DBFAF
 }
 
 a i,
@@ -297,7 +297,7 @@ a,
 a span,
 p,
 p span {
-    font-size: 2.1rem
+    font-size: 1.8rem;
 }
 
 
@@ -516,7 +516,6 @@ h1 span {
 
 .heading-underline {
     line-height: 20px !important;
-    color: #333;
     background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #yellow 20px);
     font-weight: 600;
     color: #64e5d1;

@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import { NavLink } from 'react-router-dom';
 import { withRouter } from "react-router-dom";
+import Button from '@mui/material/Button';
+
 import ResumePreview from './resumePreview'
 import {skinCodes, fieldCd} from './../../constants/typeCodes';
 // import { connect } from 'react-redux'
@@ -85,10 +87,19 @@ function Education(props) {
                 <div className="error"></div>
               </div>
 
-              <div className="form-buttons">
+              {/* <div className="form-buttons">
                 <button className="btn hvr-float-shadow" type='button' onClick={onSubmit}>Next</button>
-                <NavLink to='/contact' className="center">Back</NavLink>
+                
+              </div> */}
+              <div>
+              <Button variant="outlined">
+              <NavLink className="back" to='/contact'>Back</NavLink>
+              </Button>
+              <Button  style={{margin:"1rem"}} onClick={onSubmit} variant="contained">
+                Next
+              </Button>
               </div>
+             
             </div>
           </div>
           <div className="preview-card">

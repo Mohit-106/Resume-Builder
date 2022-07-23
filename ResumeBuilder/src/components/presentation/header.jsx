@@ -8,12 +8,12 @@ import { connect } from "react-redux";
 function LoggesOut(props) {
   return (
     <ul>
-      <li className="signup ">
-        <NavLink className=" btnv-1" to="/register">
+      <li className="signup clrBlur">
+        <NavLink className=" btnv-1 clrBlur" to="/register">
         Register
         </NavLink>
       </li>
-      <li className="signin"> 
+      <li className="signin clrBlur"> 
         <NavLink 
         className="text-blue btnv-3" to="/login">
         Sign In
@@ -41,12 +41,12 @@ const Header = (props) => {
         { isLoaded(auth) && !isEmpty(auth) ?<>
 
           <ul>
-            <li className="signin ">
-              <NavLink className="  " to="/">
+            <li>
+              <NavLink className="clrBlur" to="/">
                Logged in as {auth.email}
               </NavLink>
             </li>
-            <li className="signin"> 
+            <li className="signin clrBlur"> 
               <button className="sout" onClick={handleLogOut}>
                Signout
               </button>         
@@ -57,7 +57,7 @@ const Header = (props) => {
           
           <ul id="nav-mid">
             <li>
-            <NavLink className="btn-nvt-gm" to="/resume-templates">
+            <NavLink className="btn-nvt-gm clrBlur" to="/resume-templates">
             Resume Templates
             </NavLink>
             </li>         

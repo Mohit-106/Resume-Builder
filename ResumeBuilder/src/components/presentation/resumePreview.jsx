@@ -29,7 +29,12 @@ function ResumePreview(props){
                     <p className="heading bold">PROFESSIONAL SUMMARY</p>
                      <div className={'divider'}></div>
                      <p>{rvContact(fieldCd.ProfSummary)}</p>
+                     
+                     <p className="heading bold">Projects</p>
+                     <p>{rvContact(fieldCd.Profession)}</p>
+                     <div className={'divider'}></div>
                 </div>
+                
 
                 <div className={'educationSection text-upper'}>                   
                     <p className="heading bold">EDUCATIONAL DETAILS</p>
